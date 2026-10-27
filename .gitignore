@@ -1,0 +1,29 @@
+# Credenziali e configurazione locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Dipendenze e cache
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.npm/
+
+# Output generati
+coverage/
+dist/
+build/
+*.log
+
+# Sistema ed editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
